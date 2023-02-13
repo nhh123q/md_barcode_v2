@@ -30,7 +30,6 @@
         @php
             if($quantity % 2 != 0){
                 $quantity = $quantity+2;
-                echo $quantity;
             }
         @endphp
         @for ($i=0;$i<= $quantity; $i=$i+2)
