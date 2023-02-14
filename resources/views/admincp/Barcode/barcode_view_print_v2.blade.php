@@ -50,9 +50,11 @@
 				<div style="overflow: hidden !important;display: flex; flex-wrap: wrap;align-content: center;width: 4in; height: 1in;">
 					<div>
                         @php
-                         echo DNS1D::getBarcodeHTML($code, "C128",1.4,22);
+                         echo '<img src="data:image/png;base64,' . DNS1D::getBarcodePNG('4', 'C39+') . '" alt="barcode"   />';
                         @endphp
+<br/>
 						<span>
+
 							@php
                                 echo $name;
                             @endphp
@@ -64,9 +66,11 @@
 				<div style="overflow: hidden !important;display: flex; flex-wrap: wrap;align-content: center;width: 4in; height: 1in;">
 					<div>
                         @php
-                         echo DNS1D::getBarcodeHTML($code, "C128",1.4,22);
+                         echo '<img src="data:image/png;base64,' . DNS1D::getBarcodePNG('4', 'C39+') . '" alt="barcode"   />';
                         @endphp
+                                                    <br/>
 						<span>
+
 							@php
                                 echo $name;
                             @endphp
@@ -81,9 +85,11 @@
 				<div style="overflow: hidden !important;display: flex; flex-wrap: wrap;align-content: center;width: 4in; height: 1in;">
 					<div>
                         @php
-                         echo DNS1D::getBarcodeHTML($code, "C128",1.4,22);
+                         echo '<img src="data:image/png;base64,' . DNS1D::getBarcodePNG('4', 'C39+') . '" alt="barcode"   />';
                         @endphp
+                                                    <br/>
 						<span>
+
 							@php
                                 echo $name;
                             @endphp
